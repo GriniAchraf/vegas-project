@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/poppins-Font.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+
+    <title>DatART</title>
+</head>
+
+<body class="poppins-style">
+
+    <nav class="navbar  container-wrapper ">
+        <div class="left-wrapper">
+            <img src="./img/logo-cacf.png" alt="" style="width: 50%;height: 50%;">
+        </div>
+
+    </nav>
+    <h1 class="d-flex justify-content-center title">Know your customer</h1>
+    <div class="d-flex justify-content-center">
+        <div class="container" style="width: 1000px;margin-top: 40px;">
+            <h2>
+                head explication page2
+            </h2>
+            <p class="description-text-style" style="margin-top: 30px;">
+                Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire
+                pour calibrer une
+                mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en
+                page est achevée.
+                Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum.
+            </p>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center" style="margin-top: 70px;">
+        <div class="square-bloc box-detail-shadow-style">
+            <canvas id="line-chart" style="padding:5px;height: 400px;"></canvas>
+        </div>
+        <div class="medium-bloc box-detail-shadow-style" style="margin-left: 50px;">
+            <canvas id="bar-chart-2" style="padding:5px"></canvas>
+        </div>
+
+    </div>
+    <div class="d-flex justify-content-center" style="margin-top: 50px;">
+        <div class="square-bloc box-detail-shadow-style">
+            <canvas id="pie-chart" style="padding:5px"></canvas>
+        </div>
+        <div class="medium-bloc box-detail-shadow-style" style="margin-left: 50px;">
+            <canvas id="multiple-line-chart" style="padding:5px"></canvas>
+        </div>
+
+    </div>
+
+
+    <nav class="d-flex justify-content-center" aria-label="..." style="margin-top: 50px;">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="./page-1.html" style=" color: #007856;">Previous</a>
+            </li>
+            <li class="page-item "><a class="page-link" href="./page-1.html"
+                    style=" background-color: white;color: #007856;;">1</a></li>
+            <li class="page-item active"><a class="page-link" href="#" style=" background-color: #007856;">2</a></li>
+            <li class="page-item"><a class="page-link" href="./page-3.html" style=" color: #007856;">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="./page-3.html" style=" color: #007856;">Next</a>
+            </li>
+        </ul>
+    </nav>
+
+    <footer style="margin-top: 50px;">
+        <div class="copyright_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright_text vertical-center">
+                            <p>Developed by CHERTI SALMA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./data/page-2/line-chart-data.js"></script>
+<script src="./js/line-chart.js"></script>
+
+<script src="./data/page-2/bar-chart-data.js"></script>
+<script src="./js/bar-chart.js"></script>
+
+<script src="data/page-2/pie-chart-data.js"></script>
+<script src="./js/pie-chart.js"></script>
+
+<script src="./data/page-2/multiple-line-chart-data.js"></script>
+<script src="./js/multiple-line-chart.js"></script>
+
+</html>
